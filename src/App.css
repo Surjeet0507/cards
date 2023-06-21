@@ -1,0 +1,51 @@
+
+
+
+  .login{
+    border: 2px solid black;
+   }
+   .lable_1{
+     top: 24px;
+       display: flex;
+       position: absolute;
+       left: 3px;
+       color: black;
+    
+   }
+   .lable_2{
+     top: 24px;
+     display: flex;
+     position: absolute;
+     left: 170px;
+     color: black;
+     .Item{
+     
+      margin-bottom: 1px !important;
+    }
+    .Items{
+      margin-bottom: 5px !important;
+    }
+   }
+   
+   .input{
+     width: 50%;
+   
+    
+   }
+   
+   .spanhead{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     font-weight: lighter;
+   }
+   
+   .container{
+    
+   margin-top: 10%;
+    
+   }
+   Button{
+    width: 337px;
+   }
+   
