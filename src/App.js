@@ -10,6 +10,7 @@ import {  Routes,Route} from 'react-router-dom'
 
 
 function App() {
+  console.log("hi");
   return (
     <>
     
@@ -19,7 +20,6 @@ function App() {
   <Route path='/Login'element={<Login/>}></Route> 
    <Route path='/Forget'element={<Forgot/>}></Route>
 </Routes>
-
 
    
    
