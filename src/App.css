@@ -1,51 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
 
 
 
-  .login{
-    border: 2px solid black;
-   }
-   .lable_1{
-     top: 24px;
-       display: flex;
-       position: absolute;
-       left: 3px;
-       color: black;
-    
-   }
-   .lable_2{
-     top: 24px;
-     display: flex;
-     position: absolute;
-     left: 170px;
-     color: black;
-     .Item{
-     
-      margin-bottom: 1px !important;
-    }
-    .Items{
-      margin-bottom: 5px !important;
-    }
-   }
-   
-   .input{
-     width: 50%;
-   
-    
-   }
-   
-   .spanhead{
-     display: flex;
-     justify-content: center;
-     text-align: center;
-     font-weight: lighter;
-   }
-   
-   .container{
-    
-   margin-top: 10%;
-    
-   }
-   Button{
-    width: 337px;
-   }
-   
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main-content i{
+  margin-left: 50px;
+  color: red;
+  border-radius: 50%;
+}
+
+.main-content h1{
+  color: blue;
+  
+}
+.data img{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+.data p{
+  margin-left: 80px;
+  margin-top: -30px;
+}
+.data h5{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.data i{
+  color:rgba(255, 0, 0, 0.534);
+  margin-top: 5px;
+}
